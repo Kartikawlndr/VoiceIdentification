@@ -1,5 +1,8 @@
+fastapi
+uvicorn
+python-dotenv
+torch
 flask
 pydub
 pyannote.audio
-torch
 torchaudio
