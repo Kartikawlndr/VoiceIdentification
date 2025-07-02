@@ -1,7 +1,6 @@
 fastapi
 uvicorn
 python-dotenv
-#torch
 pydub
-#pyannote.audio
-#torchaudio
+python-multipart
+
