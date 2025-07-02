@@ -1,0 +1,5 @@
+flask
+pydub
+pyannote.audio
+torch
+torchaudio
