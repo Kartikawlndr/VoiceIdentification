@@ -9,8 +9,9 @@ import os
 # Load Hugging Face token dari .env
 load_dotenv()
 HF_TOKEN = os.getenv("HF_TOKEN")
+API_URL = "https://api-inference.huggingface.co/models/pyannote/speaker-diarization"
+HEADERS = {"Authorization": f"Bearer {HF_TOKEN}"}
 
-# Inisialisasi FastAPI dan pipeline diarization
 app = FastAPI(title="Diarization API")
 pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization", use_auth_token=HF_TOKEN)
 
