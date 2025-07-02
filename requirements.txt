@@ -3,5 +3,5 @@ uvicorn
 python-dotenv
 #torch
 pydub
-pyannote.audio
+#pyannote.audio
 #torchaudio
